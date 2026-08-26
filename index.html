@@ -5,39 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        .element {
-            width: 300px;
-            height: 80px;
-            border: 1px solid red;
-            margin: 5px;
-            border-radius: 10px;
-            background-image: url('https://www.xtrafondos.com/wallpapers/avengers-endgame-2988.jpg');
-            background-position: center;
-            background-size: cover;
-            background: blue;
-        }
-    </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <!-- lista ordenada -->
-            <!-- <p>Lista ordenada</p>
-         <ol>
-            <li>Opcion 1</li>          
-            <li>Opcion 2</li>          
-            <li>Opcion 3</li>          
-            <li>Opcion 4</li>          
-            <li>Opcion 5</li>          
-            <li>Opcion 6</li>          
-         </ol>
-         <hr>
-         <p>Lista desordenada</p> -->
-            <!-- lista desordenada -->
-            
+            <img src="assets/images/logo.png" alt="Logo">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
@@ -47,9 +20,37 @@
             </ul>
         </nav>
 
+        <!-- Banner -->
+        <div class="banner">
+            <h2>Zone BF</h2>
+            <img src="" alt="">
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section>
+            <h2>Registrate</h2>
+            <form action="contactos.html" method="get">
+                <label for="">Número de identidad</label>
+                <input type="number" placeholder="1051822577"> <br><br>
+                <label for="">Nombre completo</label>
+                <input type="texto" placeholder="Ingrese su nombre"> <br><br>
+                <label for="">Sexo de nacimiento</label>
+                <select name="" id="">
+                    <option selected>Selecione</option>
+                    <option value="F">Femenino</option>
+                    <option value="M">Masculino</option>
+                </select><br><br>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date"> <br><br>
+
+                <label for="">Fecha y hora de ingreso</label>
+                <input type="datetime-local"> <br><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 
 
 </body>
